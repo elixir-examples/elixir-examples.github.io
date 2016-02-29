@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parse string to float"
-date:   2016-02-29 06:37:58 -0600
+date:   2016-02-29 02:39:58 -0600
 categories: string
 ---
 Parse string to float
