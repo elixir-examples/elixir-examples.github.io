@@ -7,12 +7,10 @@
 
 # Site settings
 title: Elixir Examples
-email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   A collection a Elixir programming language examples.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://elixir-examples.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
 github_username:  elixir-examples
 
 # Build settings
