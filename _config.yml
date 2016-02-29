@@ -15,3 +15,7 @@ github_username:  elixir-examples
 
 # Build settings
 markdown: kramdown
+
+# build a sitemap
+gems:
+  - jekyll-sitemap
