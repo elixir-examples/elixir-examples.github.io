@@ -6,10 +6,20 @@ layout: default
 
   <h1 class="page-heading">Categories</h1>
   <ul>
-    {% for category in site.categories %}
-        <li><a href="/tags/#{{ category | first }}">{{ category | first | capitalize }}</a></li>
-    {% endfor %}
-  </ul>
+  {% for category in site.categories %}
+    <li>{{ category | first | capitalize }}</li></a>
+      <ul>
+      {% for posts in category %}
+        {% for post in posts %}
+          {% if post.url %}
+          <li><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
 
   <br/>
   <br/>
