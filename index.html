@@ -4,10 +4,20 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Categories</h1>
+  <ul>
+    {% for category in site.categories %}
+        <li><a href="/tags/#{{ category | first }}">{{ category | first | capitalize }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <br/>
+  <br/>
+
+  <h1 class="page-heading">Recent Examples</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -18,6 +28,5 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.github.url }}">via RSS</a></p>
 
 </div>
