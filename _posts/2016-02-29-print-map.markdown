@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Print map"
+date:   2016-02-29 18:51:58 -0600
+categories: IO
+---
+Prints a map
+
+{% highlight elixir %}
+%{key: 42} = IO.inspect(%{key: 42})
+# prints "%{key: 42}"
+{% endhighlight %}
+
+Related Documentation: [Inspect Protocol](http://elixir-lang.org/docs/stable/elixir/Inspect.html)
