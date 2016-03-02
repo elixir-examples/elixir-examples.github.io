@@ -8,10 +8,11 @@
 # Site settings
 title: Elixir Examples
 description: > # this means to ignore newlines until "baseurl:"
-  A collection a Elixir programming language examples.
+  A collection of small Elixir programming language examples.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://elixir-examples.github.io" # the base hostname & protocol for your site
 github_username:  elixir-examples
+twitter_username: elixirexamples
 
 # Build settings
 markdown: kramdown
