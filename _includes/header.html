@@ -6,9 +6,7 @@
 
     <nav class="site-nav">
 
-      {% if site.github_username %}
-        {% include icon-github.html username=site.github_username %}
-      {% endif %}
+
 
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -19,6 +17,9 @@
       </a>
 
       <div class="trigger">
+        {% if site.github_username %}
+          {% include icon-github.html username=site.github_username %}
+        {% endif %}
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.github.url }}">{{ my_page.title }}</a>
