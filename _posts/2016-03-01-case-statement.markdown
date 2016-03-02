@@ -10,7 +10,7 @@ Case statement (similar to switch in other languages)
 "Good" = case {:ok, :data} do
               {:ok, result} -> "Good"
            {:error, result} -> "Bad"
-                         _ -> "Nothing matched"
+                          _ -> "Nothing matched"
          end
 {% endhighlight %}
 
