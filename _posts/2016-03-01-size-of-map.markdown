@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "size of a map"
+title:  "Size of a map"
 date:   2016-03-01 08:05:58 -0600
 categories: map
 ---
