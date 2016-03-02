@@ -19,3 +19,6 @@ markdown: kramdown
 # build a sitemap
 gems:
   - jekyll-sitemap
+
+# Outputting
+permalink:     /examples/:title
