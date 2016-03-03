@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "if statement"
+title:  "If statement"
 date:   2016-03-02 08:07:58 -0600
 categories: kernel
 ---
@@ -24,3 +24,5 @@ nil = if false do
 {% endhighlight %}
 
 Documentation: [Kernel.if/2](http://elixir-lang.org/docs/stable/elixir/Kernel.html#if/2)
+
+See Also: [unless](/examples/unless-statement)
