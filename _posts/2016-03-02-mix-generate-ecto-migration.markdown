@@ -11,3 +11,8 @@ mix ecto.gen.migration add_author_to_post
 {% endhighlight %}
 
 Documentation: [Mix.Tasks.Ecto.Gen.Migration](https://hexdocs.pm/ecto/Mix.Tasks.Ecto.Gen.Migration.html)
+
+See Also:
+
+- [mix ecto.migrate](/examples/mix-ecto-migrate-command)
+- [mix ecto.rollback](/examples/mix-ecto-rollback-command)
