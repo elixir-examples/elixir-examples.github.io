@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Ternary"
+date:   2016-03-03 10:10:58 -0600
+categories: kernel
+---
+Ternary operator
+
+{% highlight elixir %}
+# There currently is no ternary operator like  true ? "yes" : "no"
+# So the following is suggested
+"no" = if 1 == 0, do: "yes", else: "no"
+{% endhighlight %}
