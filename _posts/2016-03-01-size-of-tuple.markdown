@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "size of a tuple"
+title:  "Size of a tuple"
 date:   2016-03-01 08:06:58 -0600
 categories: tuple
 ---
