@@ -358,11 +358,17 @@ Enum.each([1, 2, 3, 4], &(IO.puts &1))
 {% highlight ruby %}
 a, b = [1, 2]
 # hash not available
+#
+#
+#
 {% endhighlight %}</td>
 <td>
 {% highlight elixir %}
 [a, b] = [1, 2]
 %{a: value} = %{a: 1}
+# pattern matching can match against literals
+# and be used in function definitions,
+# case statements, list comprehensions and more
 {% endhighlight %}</td>
 </tr>
 <!--  -->
