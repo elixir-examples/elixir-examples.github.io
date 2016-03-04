@@ -2,7 +2,7 @@
 layout: post
 title:  "Keyword list to map"
 date:   2016-03-01 08:03:58 -0600
-categories: "Keyword List"
+categories: ["Keyword List"]
 ---
 Keyword list to map
 
