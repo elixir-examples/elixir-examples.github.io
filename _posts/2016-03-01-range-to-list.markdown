@@ -2,7 +2,7 @@
 layout: post
 title:  "Range to list"
 date:   2016-03-01 08:01:58 -0600
-categories: enum
+categories: range
 ---
 Range to list
 
