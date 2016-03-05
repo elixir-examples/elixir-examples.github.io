@@ -50,7 +50,7 @@ The following is a guide to help compare Elixir and Ruby syntax and implementati
   </tr>
   <!--  -->
   <tr>
-  <td>Static Typing</td>
+  <td>Static Analysis</td>
   <td>
   Not Available</td>
   <td>
@@ -124,7 +124,7 @@ end
 {% endhighlight %}</td>
 </tr>
 <!--  -->
-<td>Assign a variable</td>
+<td>Variable assignment/Capture</td>
 <td>
 {% highlight ruby %}
 #
@@ -356,8 +356,8 @@ Enum.each([1, 2, 3, 4], &(IO.puts &1))
 <td>Pattern Matching</td>
 <td>
 {% highlight ruby %}
-a, b = [1, 2]
-# hash not available
+# Not available
+# 
 #
 #
 #
