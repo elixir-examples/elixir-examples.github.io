@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Word list"
+date:   2016-03-05 13:40:58 -0600
+categories: sigil
+---
+Word lists can be created using the `~w` sigil.
+
+{% highlight elixir %}
+["one", "two", "three"] = ~w(one two three)
+{% endhighlight %}
