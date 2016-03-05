@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Return early"
-date:   2016-03-05 11:30:58 -0600
+date:   2016-03-05 13:30:58 -0600
 categories: kernel
 ---
 There is no `return` keyword so code must be organized to return early. The follow example shows how to organize code to return early in Elixir.
