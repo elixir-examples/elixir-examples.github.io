@@ -1,0 +1,23 @@
+---
+layout: default
+sitemap: false
+---
+
+
+
+  <h1 class="page-heading">All Examples</h1>
+
+  <div class="post-list">
+    <hr/>
+    <br/>
+    {% for post in site.posts %}
+        <h3><a class="post-link" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h3>
+        {{ post.content }}
+        <hr/>
+      </br>
+
+    {% endfor %}
+  </div>
+
+
+</div>
