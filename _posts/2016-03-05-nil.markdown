@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Nil"
+date:   2016-03-05 08:30:58 -0600
+categories: kernel
+---
+This example shows example nil usage. Nil is frequently used as a return value to represent no value.
+
+{% highlight elixir %}
+nil
+
+true = is_nil(nil)
+
+# nil is falsey
+"ok" = unless nil do
+         "ok"
+       end
+{% endhighlight %}
