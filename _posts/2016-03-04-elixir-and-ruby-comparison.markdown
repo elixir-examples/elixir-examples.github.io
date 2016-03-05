@@ -315,7 +315,30 @@ if true do
 end
 {% endhighlight %}</td>
 </tr>
-
+<!--  -->
+<tr>
+<td>Else If</td>
+<td>
+{% highlight ruby %}
+result = if 0 > 1
+           "No"
+         elsif 0 > 2
+           "Nope"
+         else
+           "fallback"
+         end
+{% endhighlight %}</td>
+<td>
+{% highlight elixir %}
+result = cond do
+           0 > 1 -> "No"
+           0 > 2 -> "Nope"
+           true  -> "fallback"
+         end
+#
+#
+{% endhighlight %}</td>
+</tr>
 <!--  -->
 <tr>
 <td>Printing</td>
@@ -357,7 +380,7 @@ Enum.each([1, 2, 3, 4], &(IO.puts &1))
 <td>
 {% highlight ruby %}
 # Not available
-# 
+#
 #
 #
 #
