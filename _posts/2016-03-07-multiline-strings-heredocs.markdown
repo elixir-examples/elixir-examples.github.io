@@ -6,6 +6,7 @@ categories: string
 ---
 This example shows how to create a multiline string.
 
+# First line break is removed
 {% highlight elixir %}
 "  1\n  2\n  3\n" = """
   1
