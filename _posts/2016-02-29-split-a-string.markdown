@@ -4,10 +4,18 @@ title:  "Split a string"
 date:   2016-02-29 18:42:58 -0600
 categories: string
 ---
-Split a string
+This example shows how to split a string on whitespace or split on a string.
 
 {% highlight elixir %}
 ["1", "2", "3"] = String.split("1,2,3" , ",")
+
+# String.split/1 is useful to split on and strip whitespace
+["1", "2"] = String.split("   1  \n \t   2 \n")
+
 {% endhighlight %}
 
-Documentation: [String.split/3](http://elixir-lang.org/docs/stable/elixir/String.html#split/3)
+
+Documentation:
+
+- [String.split/3](http://elixir-lang.org/docs/stable/elixir/String.html#split/3)
+- [String.split/1](http://elixir-lang.org/docs/stable/elixir/String.html#split/1)
