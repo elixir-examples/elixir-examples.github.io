@@ -13,7 +13,7 @@ a = 1
 a = 2
 a = 3
 
-# Match error because a is pinned to 4
+# Match error because a is pinned to 3
 ^a = 4
 
 {% endhighlight %}
