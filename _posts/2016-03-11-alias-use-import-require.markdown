@@ -57,7 +57,7 @@ Imports specific functions into the current module so they can be called without
 
 # Import a single function with the form
 # import Module, only: [function_name: arity]
-import String, only: [upcase: 0]
+import String, only: [upcase: 1]
 
 # upcase can now be used without the module name
 "ABC" = upcase("abc")
