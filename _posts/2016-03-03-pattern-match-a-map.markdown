@@ -9,6 +9,10 @@ Pattern match a map
 {% highlight elixir %}
 %{ b: value, d: value2 } = %{ a: 1, b: 2, d: 3 }
 
-# raises a map error if key is missing
+# Matches keys on the left side
+# There may be more keys on the right side
+%{ a: value } = %{ a: 1, b: 2, d: 3 }
+
+# raises a match error if key is missing
 %{ c: value } = %{ a: 1, b: 2 }
 {% endhighlight %}
