@@ -25,12 +25,12 @@ This example shows how to create a multiline string.
 
 # Heredoc sigils can also be used
 # Interpolated
-~s"""
+"""
 \"#{1}\"
 \"#{2}\"
 """
 # Not Interpolated
-~S"""
+"""
 "1"
 "2"
 """
