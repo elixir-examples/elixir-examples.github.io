@@ -4,7 +4,7 @@ title:  "Function capturing"
 date:   2016-03-09 20:30:58 -0600
 categories: kernel
 ---
-Elixir often refers to functions in the format `Module.function/arity`. For example the `to_atom` function in the `String` module which takes one argument would be referred to as `String.to_atom/1` in the documentation. When a reference to a function is needed, we can use the function capture syntax as shown below to get a reference to a function.
+Elixir often refers to functions in the format `Module.function/arity`. For example the `to_atom` function in the `String` module which takes one argument would be referred to as `String.to_atom/1` in the documentation. When a reference to a function is needed, we can use the function capture syntax, using the capture operator `&`, as shown below to get a reference to a function.
 
 {% highlight elixir %}
 
@@ -19,5 +19,7 @@ true = is_function(fun_to_atom)
 [:a] = Enum.map(["a"], &String.to_atom/1)
 
 {% endhighlight %}
+
+The capture operator `&` can also be used to create [anonymous functions](/examples/anonymous-functions).
 
 Documentation: [Function Capturing](http://elixir-lang.org/getting-started/modules.html#function-capturing)
