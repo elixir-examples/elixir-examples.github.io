@@ -148,11 +148,20 @@ defmodule HelloWorld.PageView do
 end
 {% endhighlight %}
 
+# Phoenix Template
+By default, an html formatted EEx template was generated. EEx means Embedded Elixir which allows Elixir code to be included in template files.
+
+The `index.html.eex` file that was generated only contains html by default. So, an alternative template example is shown here.
+{% highlight erb %}
+<div>
+  <p><%= "This is Elixir code" %></p>
+</div>
+{% endhighlight %}
 
 # HTTP Response
-After the view completes the rendering, the controller will then call the Plug `send_resp` method with the view data to return the HTTP response.
+After the view renders the template, the controller will then call the Plug `send_resp` method with the rendered template data to return the HTTP response.
 
-The user receives the rendered template.
+The user receives the rendered template in the browser.
 
 # Links
 - [Phoenix Framework](http://www.phoenixframework.org/)
