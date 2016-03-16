@@ -7,7 +7,7 @@ categories: ["Blog Post"]
 
 This post describes the steps that a HTTP request/response takes in a Phoenix Framework application. The example application described here was generated using the command `mix phoenix.new hello_world`.
 
-The steps in the HTTP request/response cycle are outlined as follow:
+The steps in the HTTP request/response cycle are outlined as follows:
 
 * HTTP Request
 * Cowboy
