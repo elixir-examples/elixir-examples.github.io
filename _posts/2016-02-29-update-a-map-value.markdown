@@ -7,5 +7,9 @@ categories: map
 Update a map value
 
 {% highlight elixir %}
-%{example_key: "New Value"} = %{  %{ example_key: "Old Value" } | example_key: "New Value" }
+%{a: "New Value"} = %{  %{ a: "Old Value" } | a: "New Value" }
+
+# Note that this does not work to add a new key
+%{ %{} | new_key: 1}
+# Raises (KeyError) key :new_key not found in: %{}
 {% endhighlight %}
