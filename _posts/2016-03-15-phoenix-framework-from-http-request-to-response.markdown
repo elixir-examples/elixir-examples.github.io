@@ -123,9 +123,9 @@ end
 # Phoenix Controller
 The controller is where application logic is done. Often this will include running SQL queries using the `Ecto` database library which is not covered in this article.
 
-The params variable will contain a string keyed map of request parameters. Next, `render/3` is called with the `conn` and template name `index.html`. Often, `render/3` will be called with additional data to render like this: `render conn, "index.html", [data: "data"]`.
+The params variable will contain a string keyed map of request parameters. Next, `Phoenix.Controller.render/2` is called with the `conn` and template name `index.html`. Often, `Phoenix.Controller.render/3` will be called with additional data to render like this: `render conn, "index.html", [data: "data"]`.
 
-The `HelloWorld.PageController.render/3` method will lookup the template file which by convention should be located in `web/templates/page/index.html.eex` and will then call the `HelloWorld.PageView.render_to_iodata` function.
+The `Phoenix.Controller.render/2` method will lookup the template file which by convention should be located in `web/templates/page/index.html.eex` and will then call the `Phoenix.View.render_to_iodata/3` function.
 
 {% highlight elixir %}
 defmodule HelloWorld.PageController do
