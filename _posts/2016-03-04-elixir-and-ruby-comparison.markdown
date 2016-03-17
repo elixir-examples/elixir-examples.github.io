@@ -20,6 +20,7 @@ The following is a guide to help compare Elixir and Ruby syntax and implementati
   border-color:#cccccc;
   border-style:solid;
   border-width:1px;
+  vertical-align: top;
 }
 </style>
 <table class="custom-table">
@@ -253,6 +254,7 @@ square = fn(x) -> x * x end
 <td>
 {% highlight ruby %}
 square.call(2)
+square.(2)
 {% endhighlight %}</td>
 <td>
 {% highlight elixir %}
