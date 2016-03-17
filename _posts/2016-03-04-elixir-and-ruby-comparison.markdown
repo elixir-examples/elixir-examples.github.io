@@ -253,6 +253,7 @@ square = fn(x) -> x * x end
 <td>
 {% highlight ruby %}
 square.call(2)
+square.(2)
 {% endhighlight %}</td>
 <td>
 {% highlight elixir %}
