@@ -20,6 +20,7 @@ The following is a guide to help compare Elixir and Ruby syntax and implementati
   border-color:#cccccc;
   border-style:solid;
   border-width:1px;
+  vertical-align: top;
 }
 </style>
 <table class="custom-table">
