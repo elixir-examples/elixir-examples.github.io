@@ -5,7 +5,7 @@ date:   2016-03-17 08:10:58 -0600
 categories: Kernel
 ---
 
-Behaviours provide a way to define an interface which a module can implement. A module declares that it implements the Behaviour with the `@behaviour` annotation. The functions in the modules implementing the behaviour will be checked at compile time to see if they match the function spefications in the behavior.
+Behaviours provide a way to define an interface which a module can implement. A module declares that it implements the Behaviour with the `@behaviour` annotation. The functions in the modules implementing the behaviour will be checked at compile time to see if they match the function specifications in the behavior.
 
 {% highlight elixir %}
 # The @callback annotations below define function specifications that a
