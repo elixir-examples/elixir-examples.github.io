@@ -10,8 +10,14 @@ This example shows different ways to get values from a map.
 # dot syntax can be used if key is atom
 1 = %{c: 1}.c
 
-# Raises a key error
+# Raises a key error for missing key
 %{c: 1}.a
+
+# [] works for non-atom values
+1 = %{"a" => 1}["a"]
+
+# [] returns nil for missing values
+nil = %{"a" => 1}["b"] 
 
 # Pattern matching can be used
 %{c: value} = %{c: 1}
