@@ -2,7 +2,7 @@
 layout: post
 title:  "Map an enumerable"
 date:   2016-03-09 08:30:58 -0600
-categories: enum
+categories: ["Enum"]
 ---
 The `map` function enumerates an enumerable while applying a transform function and collects the results into a list. `Enum.map` can be used to map a list, map a map, or map any enumerable.
 
