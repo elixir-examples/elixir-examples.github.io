@@ -132,6 +132,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 93)
   json
+  minima
 
 BUNDLED WITH
    1.11.2
