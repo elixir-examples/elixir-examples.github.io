@@ -15,7 +15,7 @@ Update a map value
 
 # Map.put/3 will add a key if it does not exist
 %{new_key: 1} = Map.put(%{}, :new_key, 1)
-# or update the value if it does exit
+# or update the value if it does exist
 %{new_key: 2} = Map.put(%{new_key: 1}, :new_key, 2)
 
 {% endhighlight %}
