@@ -7,7 +7,7 @@ categories: string
 Remove/trim leading and trailing whitespace from a string
 
 {% highlight elixir %}
-"a" = String.strip("    a     ")
+"a" = String.trim("   a   ")
 {% endhighlight %}
 
-Documentation: [String.strip/1](http://elixir-lang.org/docs/stable/elixir/String.html#strip/1)
+Documentation: [String.trim/1](https://hexdocs.pm/elixir/String.html#trim/1)
