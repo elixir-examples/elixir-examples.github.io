@@ -4,7 +4,7 @@ title:  "Sum an enumerable"
 date:   2016-05-23 08:20:58 -0600
 categories: ["Enum"]
 ---
-This example shows how to sum a list, map, range, or other enumerable to calucate a total value.
+This example shows how to sum a list, map, range, or other enumerable to calculate a total value.
 
 {% highlight elixir %}
 
