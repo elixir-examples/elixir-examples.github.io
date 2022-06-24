@@ -10,4 +10,4 @@ Convert an atom to a string
 "hello" = Atom.to_string(:hello)
 {% endhighlight %}
 
-Documentation: [Atom.to_string/1](http://elixir-lang.org/docs/stable/elixir/Atom.html#to_string/1)
+Documentation: [Atom.to_string/1](https://hexdocs.pm/elixir/Atom.html#to_string/1)

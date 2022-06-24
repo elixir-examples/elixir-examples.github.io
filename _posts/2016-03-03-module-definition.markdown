@@ -18,4 +18,4 @@ end
 Documentation:
 
 - [Modules Guide](http://elixir-lang.org/getting-started/modules.html)
-- [Kernel.defmodule/2](http://elixir-lang.org/docs/stable/elixir/Kernel.html#defmodule/2)
+- [Kernel.defmodule/2](https://hexdocs.pm/elixir/Kernel.html#defmodule/2)

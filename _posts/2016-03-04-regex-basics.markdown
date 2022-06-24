@@ -27,4 +27,4 @@ true = Regex.match?( ~r/foo/ , "Hello foo")
 {% endhighlight %}
 
 
-Documentation: [Regex](http://elixir-lang.org/docs/stable/elixir/Regex.html)
+Documentation: [Regex](https://hexdocs.pm/elixir/Regex.html)

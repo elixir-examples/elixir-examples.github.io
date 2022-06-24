@@ -22,4 +22,4 @@ The special form `with` is used to chain a sequence of matches in order and fina
 {% endhighlight %}
 
 
-Documentation: [Kernel.SpecialForms.with/1](http://elixir-lang.org/docs/stable/elixir/Kernel.SpecialForms.html#with/1)
+Documentation: [Kernel.SpecialForms.with/1](https://hexdocs.pm/elixir/Kernel.SpecialForms.html#with/1)

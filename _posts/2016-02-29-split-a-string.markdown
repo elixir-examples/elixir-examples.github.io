@@ -17,5 +17,5 @@ This example shows how to split a string on whitespace or split on a string.
 
 Documentation:
 
-- [String.split/3](http://elixir-lang.org/docs/stable/elixir/String.html#split/3)
-- [String.split/1](http://elixir-lang.org/docs/stable/elixir/String.html#split/1)
+- [String.split/3](https://hexdocs.pm/elixir/String.html#split/3)
+- [String.split/1](https://hexdocs.pm/elixir/String.html#split/1)

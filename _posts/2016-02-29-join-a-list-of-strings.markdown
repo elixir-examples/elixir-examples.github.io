@@ -10,4 +10,4 @@ Join a list of strings
  "1,2,3" = Enum.join(["1","2","3"], ",")
 {% endhighlight %}
 
-Documentation: [Enum.join/2](http://elixir-lang.org/docs/stable/elixir/Enum.html#join/2)
+Documentation: [Enum.join/2](https://hexdocs.pm/elixir/Enum.html#join/2)

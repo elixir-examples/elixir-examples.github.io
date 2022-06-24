@@ -16,4 +16,4 @@ This example shows how to write to a file using `File.write`.
 :ok = File.write!("example2.txt","Hello File!")
 {% endhighlight %}
 
-Documentation: [File.write/3](http://elixir-lang.org/docs/stable/elixir/File.html#write/3)
+Documentation: [File.write/3](https://hexdocs.pm/elixir/File.html#write/3)

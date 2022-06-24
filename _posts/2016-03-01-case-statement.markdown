@@ -14,4 +14,4 @@ Case statement (similar to switch in other languages)
          end
 {% endhighlight %}
 
-Documentation: [Kernel.SpecialForms.case/2](http://elixir-lang.org/docs/stable/elixir/Kernel.SpecialForms.html#case/2)
+Documentation: [Kernel.SpecialForms.case/2](https://hexdocs.pm/elixir/Kernel.SpecialForms.html#case/2)

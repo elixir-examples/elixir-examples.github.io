@@ -25,4 +25,4 @@ end
 Documentation:
 
 - [Structs](http://elixir-lang.org/getting-started/structs.html)
-- [Kernel.struct/2](http://elixir-lang.org/docs/stable/elixir/Kernel.html#struct/2)
+- [Kernel.struct/2](https://hexdocs.pm/elixir/Kernel.html#struct/2)

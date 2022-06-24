@@ -10,4 +10,4 @@ This example shows how to uppercase every letter in a string.
 "HELLO WORLD!" = String.upcase("Hello World!")
 {% endhighlight %}
 
-Documentation: [String.upcase/1](http://elixir-lang.org/docs/stable/elixir/String.html#upcase/1)
+Documentation: [String.upcase/1](https://hexdocs.pm/elixir/String.html#upcase/1)

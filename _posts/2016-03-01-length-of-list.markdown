@@ -10,4 +10,4 @@ Length of list
 3 = length([1, 2, 3])  
 {% endhighlight %}
 
-Documentation: [Kernel.length/1](http://elixir-lang.org/docs/stable/elixir/Kernel.html#length/1)
+Documentation: [Kernel.length/1](https://hexdocs.pm/elixir/Kernel.html#length/1)

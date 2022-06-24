@@ -19,5 +19,5 @@ This example shows how to sum a list, map, range, or other enumerable to calcula
 
 Documentation:
 
-- [Enum.sum/1](http://elixir-lang.org/docs/stable/elixir/Enum.html#sum/1)
-- [Enum.reduce/3](http://elixir-lang.org/docs/stable/elixir/Enum.html#reduce/3)
+- [Enum.sum/1](https://hexdocs.pm/elixir/Enum.html#sum/1)
+- [Enum.reduce/3](https://hexdocs.pm/elixir/Enum.html#reduce/3)

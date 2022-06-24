@@ -10,4 +10,4 @@ Range to list
 [1, 2, 3, 4] = Enum.to_list( 1..4 )
 {% endhighlight %}
 
-Documentation: [Enum.to_list/1](http://elixir-lang.org/docs/stable/elixir/Enum.html#to_list/1)
+Documentation: [Enum.to_list/1](https://hexdocs.pm/elixir/Enum.html#to_list/1)

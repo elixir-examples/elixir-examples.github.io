@@ -10,4 +10,4 @@ Get the size/length of a tuple
 3 = tuple_size({1, 2, 3})  
 {% endhighlight %}
 
-Documentation: [Kernel.tuple_size/1](http://elixir-lang.org/docs/stable/elixir/Kernel.html#tuple_size/1)
+Documentation: [Kernel.tuple_size/1](https://hexdocs.pm/elixir/Kernel.html#tuple_size/1)

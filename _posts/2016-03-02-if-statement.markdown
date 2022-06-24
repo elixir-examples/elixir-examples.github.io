@@ -23,6 +23,6 @@ nil = if false do
 "else"  = if false, do: "good", else: "else"
 {% endhighlight %}
 
-Documentation: [Kernel.if/2](http://elixir-lang.org/docs/stable/elixir/Kernel.html#if/2)
+Documentation: [Kernel.if/2](https://hexdocs.pm/elixir/Kernel.html#if/2)
 
 See Also: [unless](/examples/unless-statement)

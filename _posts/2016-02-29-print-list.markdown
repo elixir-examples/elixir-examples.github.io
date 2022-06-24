@@ -11,4 +11,4 @@ Prints a list
 # prints "[1, 2, 3]"
 {% endhighlight %}
 
-Related Documentation: [Inspect Protocol](http://elixir-lang.org/docs/stable/elixir/Inspect.html)
+Related Documentation: [Inspect Protocol](https://hexdocs.pm/elixir/Inspect.html)

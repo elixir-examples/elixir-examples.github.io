@@ -10,4 +10,4 @@ This example shows how to get the first character in a string.
 "H" = String.at("Hello",0)
 {% endhighlight %}
 
-Documentation: [String.at/2](http://elixir-lang.org/docs/stable/elixir/String.html#at/2)
+Documentation: [String.at/2](https://hexdocs.pm/elixir/String.html#at/2)

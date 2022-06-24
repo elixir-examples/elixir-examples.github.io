@@ -10,4 +10,4 @@ Concatenate strings
 "Hello World" = "Hello" <> " " <> "World"
 {% endhighlight %}
 
-Documentation: [Kernel.<>/2](http://elixir-lang.org/docs/stable/elixir/Kernel.html#%3C%3E/2)
+Documentation: [Kernel.<>/2](https://hexdocs.pm/elixir/Kernel.html#%3C%3E/2)

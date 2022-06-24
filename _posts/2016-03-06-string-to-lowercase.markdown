@@ -10,4 +10,4 @@ This example shows how to lowercase every letter in a string.
 "hello world!" = String.downcase("Hello World!")
 {% endhighlight %}
 
-Documentation: [String.downcase/1](http://elixir-lang.org/docs/stable/elixir/String.html#downcase/1)
+Documentation: [String.downcase/1](https://hexdocs.pm/elixir/String.html#downcase/1)

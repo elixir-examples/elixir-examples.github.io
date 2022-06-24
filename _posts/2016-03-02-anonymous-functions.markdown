@@ -37,4 +37,4 @@ square = &( &1 * &1 )
 four = &(2 + 2)
 {% endhighlight %}
 
-Documentation [Capture operator](http://elixir-lang.org/docs/stable/elixir/Kernel.SpecialForms.html#&/1)
+Documentation [Capture operator](https://hexdocs.pm/elixir/Kernel.SpecialForms.html#&/1)

@@ -10,4 +10,4 @@ Tuple to list
 [:a, :b, :c] = Tuple.to_list({:a, :b, :c})
 {% endhighlight %}
 
-Documentation: [Tuple.to_list/1](http://elixir-lang.org/docs/stable/elixir/Tuple.html#to_list/1)
+Documentation: [Tuple.to_list/1](https://hexdocs.pm/elixir/Tuple.html#to_list/1)
