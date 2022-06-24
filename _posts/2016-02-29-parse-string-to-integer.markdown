@@ -10,4 +10,4 @@ Parse string to integer
 {4, ""} = Integer.parse("4")
 {% endhighlight %}
 
-Documentation: [Integer.parse/2](http://elixir-lang.org/docs/stable/elixir/Integer.html#parse/2)
+Documentation: [Integer.parse/2](https://hexdocs.pm/elixir/Integer.html#parse/2)

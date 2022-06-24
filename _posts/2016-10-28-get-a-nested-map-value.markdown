@@ -19,4 +19,4 @@ nil = get_in(nested, [:one, :three])
 
 Documentation:
 
-- [Kernel.get_in/2](http://elixir-lang.org/docs/stable/elixir/Kernel.html#get_in/2)
+- [Kernel.get_in/2](https://hexdocs.pm/elixir/Kernel.html#get_in/2)

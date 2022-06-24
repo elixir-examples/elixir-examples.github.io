@@ -20,4 +20,4 @@ The `map` function enumerates an enumerable while applying a transform function 
 
 {% endhighlight %}
 
-Documentation: [Enum.map/2](http://elixir-lang.org/docs/stable/elixir/Enum.html#map/2)
+Documentation: [Enum.map/2](https://hexdocs.pm/elixir/Enum.html#map/2)

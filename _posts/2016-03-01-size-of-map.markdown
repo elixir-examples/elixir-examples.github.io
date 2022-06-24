@@ -10,4 +10,4 @@ Get the size/length of a map
 1 = map_size(%{a: 1})
 {% endhighlight %}
 
-Documentation: [Kernel.map_size/1](http://elixir-lang.org/docs/stable/elixir/Kernel.html#map_size/1)
+Documentation: [Kernel.map_size/1](https://hexdocs.pm/elixir/Kernel.html#map_size/1)

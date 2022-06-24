@@ -17,4 +17,4 @@ Elixir calls each character a grapheme so we use the `String.graphemes/1` method
 
 {% endhighlight %}
 
-Documentation: [String.graphemes/1](http://elixir-lang.org/docs/stable/elixir/String.html#graphemes/1)
+Documentation: [String.graphemes/1](https://hexdocs.pm/elixir/String.html#graphemes/1)

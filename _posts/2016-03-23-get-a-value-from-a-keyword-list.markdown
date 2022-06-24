@@ -35,4 +35,4 @@ nil = Keyword.get([a: 1, b: 2, a: 3], :c)
 
 {% endhighlight %}
 
-Documentation: [Keyword](http://elixir-lang.org/docs/stable/elixir/Keyword.html)
+Documentation: [Keyword](https://hexdocs.pm/elixir/Keyword.html)

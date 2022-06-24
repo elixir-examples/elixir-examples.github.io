@@ -16,4 +16,4 @@ This example shows the literal syntax used to create a range.
 4..1
 {% endhighlight %}
 
-Documentation: [Range](http://elixir-lang.org/docs/stable/elixir/Range.html)
+Documentation: [Range](https://hexdocs.pm/elixir/Range.html)

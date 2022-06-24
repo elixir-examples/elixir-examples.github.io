@@ -15,4 +15,4 @@ nil = List.last([])
 
 {% endhighlight %}
 
-Documentation: [List.last/1](http://elixir-lang.org/docs/stable/elixir/List.html#last/1)
+Documentation: [List.last/1](https://hexdocs.pm/elixir/List.html#last/1)

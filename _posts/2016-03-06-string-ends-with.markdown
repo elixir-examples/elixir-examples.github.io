@@ -14,4 +14,4 @@ true  = String.ends_with?("Period.", [".","?"])
 false = String.ends_with?("      !", [".","?"])
 {% endhighlight %}
 
-Documentation: [String.ends_with?/2](http://elixir-lang.org/docs/stable/elixir/String.html#ends_with?/2)
+Documentation: [String.ends_with?/2](https://hexdocs.pm/elixir/String.html#ends_with?/2)

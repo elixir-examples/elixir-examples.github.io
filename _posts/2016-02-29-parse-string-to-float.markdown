@@ -10,4 +10,4 @@ Parse string to float
 {3.14, ""} = Float.parse("3.14")
 {% endhighlight %}
 
-Documentation: [Float.parse/1](http://elixir-lang.org/docs/stable/elixir/Float.html#parse/1)
+Documentation: [Float.parse/1](https://hexdocs.pm/elixir/Float.html#parse/1)

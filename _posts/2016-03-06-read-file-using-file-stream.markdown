@@ -17,4 +17,4 @@ Enum.each(stream, fn(x) -> IO.puts x end)
 2 = Enum.reduce(stream, 0, fn(x, acc) -> acc + 1 end)
 {% endhighlight %}
 
-See documentation for more information: [File.stream!/3](http://elixir-lang.org/docs/stable/elixir/File.html#stream!/3)
+See documentation for more information: [File.stream!/3](https://hexdocs.pm/elixir/File.html#stream!/3)

@@ -10,4 +10,4 @@ Keyword list to map
 %{a: 1, b: 2, c: 3} = Enum.into( [a: 1, b: 2, c: 3], %{} )
 {% endhighlight %}
 
-Documentation: [Enum.into/2](http://elixir-lang.org/docs/stable/elixir/Enum.html#into/2)
+Documentation: [Enum.into/2](https://hexdocs.pm/elixir/Enum.html#into/2)
